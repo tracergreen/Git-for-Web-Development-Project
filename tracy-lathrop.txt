@@ -1,0 +1,86 @@
+https://codepen.io/tracergreen/full/ZEWaJYe
+
+1. What is Semantic HTML? HTML tags with useful names, like header, section, p (for paragraph) - describes the item you are tagging relative to the content
+
+2. What is HTML used for? HTML is a markup language, it is used to mark up a webpage's information in a way that helps divide it into meaningful bits of information that can then be formatted using CSS
+
+3. What is an attribute and where do we put it? An attribute is to provide specific information about a tag, such as a website or location for an image or link. These are indicated within the opening tag.
+
+4. What is the h1 tag used for? How many times should I use it on a page? The h1 tag is the main heading tag, and should only be used once, as best practice. This would typically hold the most important title on a page.
+
+5. Name two tags that have required attributes. a (anchor) tags and img (image) tags both need an attribute to tell them where to direct the tag to go for the link or image
+
+6. What do we put in the head of our HTML document? Heads are used for meta data and stylesheets, and is used for SEO
+
+7. What is an id? an id is an attribute associated to a specific element for stylesheet linking
+
+8. What elements can I add an id to? any element
+
+9. How many times can I use the same id on a page? once - id's are individual use, classes can be used multiple times
+
+10. What is a class? an attribute and value added to a tag
+
+11. What elements can I add a class to? any element
+
+12. How many times can I use the same class on a page? as many times as you want
+
+13. How do I get my link to open in a new tab? set the target as [target = "_blank"] after the attribute value of an anchor tag
+
+14. What is the alt attribute in the image tag used for? alt attribute displays text where an image cannot be displayed, used for screen readers/accessibility 
+
+15. How do I reference an id? [#] is for id, #name
+
+16. What is the difference between a section and a div? a section is a clearly defined area of a webpage, where as div (not semantic) is a division of a section. div is better to use with styling a specific container
+
+17. What is CSS used for? stylizing a webpage or html document
+
+18. How do we select an element? Example - every h2 on the page | you can just use the tag like: h2 {--(css goes here)--}, or you can give an element a class or id and select it that way.
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one. A class is used to stylize multiple things where as an id can only be used once. You might stylize your h1 by giving it an id, but all your paragraphs might have a class associated instead.
+
+20. How do we select classes in CSS? [.] is for class .name
+
+21. How do we select a p element with a single class of “human”? p.human {--(css goes here)--}
+
+22. What is a parent child selector? When would this be useful? this is when you use a selector like <div> and then whatever selector is beneath that to specifically stylize the selector within. This is useful for drilling down to a specific child selector, especially if you are styling that item in a unique way. 
+
+23. How do you select all links within a div with the class of sidebar? div.sidebar a {--(css goes here)--}
+
+24. What is a pseudo selector? used to define a special state of a selector, like hover or onclick, h1:hover {--(css goes here)--}
+
+25. What do we use the change the spacing between lines? line-height property
+
+26. What do we use to change the spacing between letters? letter-spacing property 
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform property, text-transform: uppercase; text-transform: lowercase; text-transform: capitalize;
+
+28. How do I add a 1px border around my div that is dotted and black? div { border: 1px black dotted; }
+		
+29. How do I select everything on the page? universal selector *
+
+30. How do I write a comment in CSS? /* comment goes here */ or 
+
+31. How do I find out what file I am in, when I am using the command line? git status
+
+32. Using the command line - how do I see a list of files/folders in my current folder? ls 
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?  rm (file name), and this does not provide the user with a warning or recovery option if an item is deleted
+
+34. Why should I use version control? to track changes made to a file, and to enable multiple files to be merged into one later on
+
+35. How often should I commit to github? as soon as you finish a step to provide a safe, saved pathway for you to follow back if you mess up or find a bug to fix.
+
+36. What is the command we would use to push our repo up to github? git push origin (branch name)
+
+37. Walk me through Lambda's git flow. Fork the project, add TL as collaborator, clone/download your repo, navigate within your command line to the directory you are using (cd), clone, cd into that file, branch by checking the repo out using your name, work on your assignment, add, commit and push, then back in Github, submit a pull request, add TL to reviewers, DO NOT MERGE your own pull request
+
+Stretch Questions
+1. What is the difference between an inline element and a block element? inline elements like <span> or <strong> do not move text out of the line it is on, where as block elements take up a full line, like <p> or <div>
+
+2. What happens when an element is positioned absolutely? an element with absolute positioning will position itself relative to the last parent/relative, or if there is no relative with a position element, it will be relative to the body
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
